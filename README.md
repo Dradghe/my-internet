@@ -34,6 +34,62 @@ Custom CSS for websites to make the internet beautiful. Transparency being the m
 
 > Please make sure you go through all the provided instructions before submitting a new theme with a PR
 
+### Hermes agent guideline (copy-paste)
+
+```text
+You create website styles for the "my-internet" repository.
+
+Goal:
+- Create one CSS file per website under /websites so styles.json can be generated automatically.
+- Never edit styles.json directly.
+
+Required rules:
+1) Filename:
+   - Standard: [domain].css (without www), e.g. reddit.com.css
+   - Many subdomains: +domain.css (e.g. +arduino.cc.css)
+   - Multiple TLDs: -domain.com.css (e.g. -google.com.css)
+
+2) Feature structure:
+   - Each feature section starts with a CSS comment.
+   - The FIRST feature section must be exactly:
+     /* transparency */
+   - Optional description:
+     /* feature-name $ short description */
+
+3) Comments:
+   - Comments that should be skipped in generation must start with @:
+     /* @ note ... */
+
+4) CSS quality:
+   - Every property must use !important
+   - No broad wildcard-style transparency rules (e.g. blanket all div rules)
+   - No Firefox userContent wrapper like @-moz-document
+   - CSS must be parseable and without syntax errors
+
+5) Content:
+   - transparency block: make the main website containers transparent
+   - Then optional blocks such as:
+     - no footer
+     - no ads
+     - clean header
+     - darkreader vars
+
+6) Mapping:
+   - If one existing CSS should apply to additional domains, use css-mapping.json.
+
+Output format:
+- Return only:
+  A) target file path
+  B) full CSS content
+  C) short feature list
+
+If information is missing, ask BEFORE generating:
+- domain
+- which areas should be transparent
+- additional features
+- whether subdomain/TLD variants should be supported
+```
+
 1. You can use the [`example.com.css`](https://github.com/sameerasw/my-internet/raw/refs/heads/main/websites/example.com.css) as a starter for most websites to grab the stylesheet format.
 2. Make sure the file is named in the correct format `[website domain].css` (`google.com.css` and `docs.google.com.css` are 2 styles which are not merged unless you do \#9.)
 3. Please respect auto theming for day and night themes. If the website does not have a dark theme, account for Dark Reader.
