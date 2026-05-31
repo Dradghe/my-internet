@@ -1,0 +1,449 @@
+/* transparency */
+html,
+body.layout-boxed,
+.wrapper,
+.content-wrapper,
+.main-footer,
+.box,
+.box-header,
+.box-body,
+.box-footer,
+.card,
+.card-header,
+.card-body,
+.card-footer,
+.main-sidebar,
+.sidebar,
+.left-side,
+.sidebar-menu,
+.navbar,
+.main-header,
+.navbar-nav > li > a,
+.info-box,
+.small-box,
+.info-box-icon,
+.info-box-content,
+.login-box,
+.login-card-body,
+.login-box-body,
+.login-logo,
+.login-footer,
+.login-donate,
+.panel,
+.panel-heading,
+.panel-body,
+.panel-footer,
+.table,
+.table-striped > tbody > tr,
+.dataTables_wrapper,
+.dataTables_filter,
+.modal-content,
+.modal-header,
+.modal-body,
+.modal-footer,
+.dropdown-menu,
+.input-group,
+.input-group-addon,
+.form-control,
+.well,
+.list-group,
+.list-group-item,
+.progress,
+.breadcrumb,
+.pagination > li > a,
+.popover,
+.tooltip-inner,
+.nav-tabs > li > a,
+.callout,
+.alert,
+.btn-default,
+.select2-container--default .select2-selection--single,
+.select2-dropdown,
+.select2-container--default .select2-results > .select2-results__options,
+.bstreeview,
+.bstreeview .list-group-item,
+.daterangepicker,
+.daterangepicker .ranges li,
+.daterangepicker .calendar-table,
+.nav-pills > li > a,
+.panel-title,
+.bg-aqua,
+.bg-green,
+.bg-yellow,
+.bg-red,
+.bg-blue,
+.bg-gray,
+.bg-navy,
+.bg-teal,
+.bg-olive,
+.bg-orange,
+.bg-fuchsia,
+.bg-purple,
+.bg-maroon,
+.bg-black,
+.bg-light-blue,
+.small-box .icon,
+.info-box .info-box-icon,
+#page-loader {
+  background: transparent !important;
+}
+
+/* darkreader vars $ Nord theme with whiter font */
+:root {
+  --nord0: #2e3440;
+  --nord1: #3b4252;
+  --nord2: #434c5e;
+  --nord3: #4c566a;
+  --nord4: #d8dee9;
+  --nord5: #e5e9f0;
+  --nord6: #eceff4;
+  --nord7: #8fbcbb;
+  --nord8: #88c0d0;
+  --nord9: #81a1c1;
+  --nord10: #5e81ac;
+  --nord11: #bf616a;
+  --nord12: #d08770;
+  --nord13: #ebcb8b;
+  --nord14: #a3be8c;
+  --nord15: #b48ead;
+}
+
+html {
+  background-color: var(--nord0) !important;
+}
+
+body,
+body.layout-boxed {
+  background-color: var(--nord0) !important;
+}
+
+.wrapper,
+.content-wrapper,
+.main-sidebar,
+.left-side {
+  background-color: var(--nord0) !important;
+}
+
+.box,
+.card,
+.info-box,
+.small-box,
+.box-header,
+.box-body,
+.card-header,
+.card-body,
+.panel,
+.panel-heading,
+.panel-body {
+  background-color: var(--nord1) !important;
+}
+
+.main-header .navbar,
+.navbar-static-top {
+  background-color: var(--nord1) !important;
+}
+
+.sidebar-menu > li > a,
+.nav-tabs > li > a,
+.nav-pills > li > a {
+  background-color: var(--nord1) !important;
+  color: var(--nord6) !important;
+}
+
+.sidebar-menu > li.active > a,
+.nav-tabs > li.active > a,
+.nav-pills > li.active > a {
+  background-color: var(--nord10) !important;
+  color: var(--nord6) !important;
+}
+
+.form-control,
+.input-group-addon,
+.select2-container--default .select2-selection--single,
+.select2-dropdown,
+.daterangepicker,
+.daterangepicker .calendar-table,
+.modal-content,
+.modal-header,
+.modal-body,
+.modal-footer,
+.dropdown-menu,
+.well,
+.list-group-item,
+.popover,
+.tooltip-inner,
+.callout,
+.alert,
+.btn-default,
+.bstreeview,
+.bstreeview .list-group-item,
+.daterangepicker .ranges li {
+  background-color: var(--nord1) !important;
+  border-color: var(--nord3) !important;
+  color: var(--nord6) !important;
+}
+
+/* @ body text and headings */
+body,
+p,
+span,
+div,
+li,
+td,
+th,
+label,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.box-title,
+.panel-title,
+.card-title,
+.table,
+.table > thead > tr > th,
+.table > tbody > tr > td,
+.dataTables_wrapper,
+.dataTables_info,
+.dataTables_length,
+.modal-title,
+.login-logo,
+.login-box-msg {
+  color: var(--nord6) !important;
+}
+
+/* @ secondary / muted text */
+.text-muted,
+small,
+.small,
+.help-block,
+.form-text,
+.subheader,
+.sub-title,
+.box-header > .box-tools,
+.dataTables_filter label,
+.select2-container--default .select2-selection--single .select2-selection__placeholder {
+  color: var(--nord4) !important;
+}
+
+/* @ links */
+a,
+a:link,
+.btn-link,
+.login-logo a,
+.panel-title a {
+  color: var(--nord8) !important;
+}
+
+a:hover,
+a:focus {
+  color: var(--nord7) !important;
+}
+
+/* @ buttons */
+.btn-primary {
+  background-color: var(--nord10) !important;
+  border-color: var(--nord10) !important;
+  color: var(--nord6) !important;
+}
+
+.btn-success {
+  background-color: var(--nord14) !important;
+  border-color: var(--nord14) !important;
+  color: var(--nord0) !important;
+}
+
+.btn-danger {
+  background-color: var(--nord11) !important;
+  border-color: var(--nord11) !important;
+  color: var(--nord6) !important;
+}
+
+.btn-warning {
+  background-color: var(--nord13) !important;
+  border-color: var(--nord13) !important;
+  color: var(--nord0) !important;
+}
+
+.btn-info {
+  background-color: var(--nord9) !important;
+  border-color: var(--nord9) !important;
+  color: var(--nord0) !important;
+}
+
+/* @ tables */
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: rgba(59, 66, 82, 0.5) !important;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: rgba(67, 76, 94, 0.6) !important;
+}
+
+.table > thead > tr > th {
+  border-bottom-color: var(--nord3) !important;
+}
+
+.table > tbody > tr > td {
+  border-top-color: var(--nord3) !important;
+}
+
+/* @ borders */
+.box,
+.card,
+.panel,
+.modal-content,
+.dropdown-menu,
+.well,
+.list-group-item,
+.form-control,
+.input-group-addon,
+.callout,
+.alert,
+.popover,
+.pagination > li > a,
+.nav-tabs,
+.nav-tabs > li > a,
+.progress,
+.breadcrumb,
+.daterangepicker,
+.daterangepicker .calendar-table,
+.bstreeview .list-group-item {
+  border-color: var(--nord3) !important;
+}
+
+.main-header .navbar,
+.main-header .logo {
+  border-bottom-color: var(--nord3) !important;
+}
+
+.main-sidebar,
+.left-side {
+  border-right-color: var(--nord3) !important;
+}
+
+/* @ progress bars */
+.progress {
+  background-color: var(--nord2) !important;
+}
+
+.progress-bar {
+  background-color: var(--nord10) !important;
+}
+
+/* @ pagination */
+.pagination > li > a {
+  background-color: var(--nord1) !important;
+  color: var(--nord6) !important;
+}
+
+.pagination > li.active > a,
+.pagination > li.active > span {
+  background-color: var(--nord10) !important;
+  border-color: var(--nord10) !important;
+  color: var(--nord6) !important;
+}
+
+/* @ scrollbar */
+::-webkit-scrollbar-track {
+  background-color: var(--nord0) !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--nord3) !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--nord2) !important;
+}
+
+/* @ DataTables specific */
+table.dataTable tbody tr {
+  background-color: transparent !important;
+}
+
+table.dataTable.stripe tbody tr.odd,
+table.dataTable.display tbody tr.odd {
+  background-color: rgba(59, 66, 82, 0.5) !important;
+}
+
+table.dataTable.hover tbody tr:hover,
+table.dataTable.display tbody tr:hover {
+  background-color: rgba(67, 76, 94, 0.6) !important;
+}
+
+/* @ Select2 */
+.select2-container--default
+  .select2-results__option--highlighted[aria-selected] {
+  background-color: var(--nord10) !important;
+  color: var(--nord6) !important;
+}
+
+/* @ Toggle switches */
+.toggle {
+  background-color: var(--nord2) !important;
+}
+
+.toggle-on {
+  background-color: var(--nord14) !important;
+}
+
+/* @ daterangepicker */
+.daterangepicker td.available:hover,
+.daterangepicker th.available:hover {
+  background-color: var(--nord2) !important;
+}
+
+.daterangepicker td.active,
+.daterangepicker td.active:hover {
+  background-color: var(--nord10) !important;
+  color: var(--nord6) !important;
+}
+
+.daterangepicker td.in-range {
+  background-color: rgba(94, 129, 172, 0.3) !important;
+}
+
+.daterangepicker .ranges li:hover {
+  background-color: var(--nord2) !important;
+}
+
+.daterangepicker .ranges li.active {
+  background-color: var(--nord10) !important;
+}
+
+/* @ input placeholders */
+.form-control::placeholder,
+.select2-search__field::placeholder {
+  color: var(--nord3) !important;
+}
+
+/* @ stat colors overrides for Nord */
+.text-red,
+.text-danger,
+.fa-times,
+.fa-ban {
+  color: var(--nord11) !important;
+}
+
+.text-yellow,
+.text-warning {
+  color: var(--nord13) !important;
+}
+
+.text-green,
+.text-success {
+  color: var(--nord14) !important;
+}
+
+.text-aqua,
+.text-info,
+.text-light-blue {
+  color: var(--nord8) !important;
+}
+
+.text-blue {
+  color: var(--nord10) !important;
+}
